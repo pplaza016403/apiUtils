@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.gortiz.api;
+package com.api.utils;
 
 //import com.gortiz.mayor.data.Utils;
 import java.lang.reflect.Type;

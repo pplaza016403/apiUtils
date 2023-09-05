@@ -3,22 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.gortiz.api;
+package com.api.utils;
 
 /**
  *
  * @author edisson.tapia
  * @param <A>
  * @param <B>
+ * @param <C>
+ * @param <D>
  */
-public class ApiDoble<A extends Object, B extends Object> {
+public class ApiCuadruple<A extends Object, B extends Object, C extends Object, D extends Object> {
 
     private A objectoA;
     private B objectoB;
+    private C objectoC;
+    private D objectoD;
 
-    public ApiDoble(A objectoA, B objectoB) {
+    public ApiCuadruple(A objectoA, B objectoB, C objectoC, D objectoD) {
         this.objectoA = objectoA;
         this.objectoB = objectoB;
+        this.objectoC = objectoC;
+        this.objectoD = objectoD;
     }
 
     public A getObjectoA() {
@@ -35,6 +41,22 @@ public class ApiDoble<A extends Object, B extends Object> {
 
     public void setObjectoB(B objectoB) {
         this.objectoB = objectoB;
+    }
+
+    public C getObjectoC() {
+        return objectoC;
+    }
+
+    public void setObjectoC(C objectoC) {
+        this.objectoC = objectoC;
+    }
+
+    public D getObjectoD() {
+        return objectoD;
+    }
+
+    public void setObjectoD(D objectoD) {
+        this.objectoD = objectoD;
     }
 
 }

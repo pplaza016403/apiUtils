@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.gortiz.api;
+package com.api.utils;
 
-import com.gortiz.api.model.TWebService;
+import com.api.utils.model.TWebService;
 import java.util.List;
 
 /**

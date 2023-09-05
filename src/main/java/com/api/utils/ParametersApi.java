@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.gortiz.api;
+package com.api.utils;
 
 /**
  * Mensajes de respuesta GO CORP. Tabla origen JDBA T_STATUS_RESPONSE

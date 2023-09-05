@@ -1,4 +1,4 @@
-package com.gortiz.api;
+package com.api.utils;
 
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonDeserializer;

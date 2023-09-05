@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.gortiz.api;
+package com.api.utils;
 
-import static com.gortiz.api.ApiTemplate.GSON;
-import com.gortiz.api.model.TWebService;
-import com.gortiz.api.model.WUsuario;
+import static com.api.utils.ApiTemplate.GSON;
+import com.api.utils.model.TWebService;
+import com.api.utils.model.WUsuario;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Base64;

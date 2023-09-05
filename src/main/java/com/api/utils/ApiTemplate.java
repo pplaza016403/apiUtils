@@ -1,8 +1,8 @@
-package com.gortiz.api;
+package com.api.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.gortiz.api.model.TWebService;
+import com.api.utils.model.TWebService;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

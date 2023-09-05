@@ -1,7 +1,7 @@
-package com.gortiz.api;
+package com.api.utils;
 
-import static com.gortiz.api.ApiTemplate.GSON;
-import com.gortiz.api.model.TWebService;
+import static com.api.utils.ApiTemplate.GSON;
+import com.api.utils.model.TWebService;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

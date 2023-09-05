@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.gortiz.api;
+package com.api.utils;
 
 /**
  *
@@ -11,20 +11,17 @@ package com.gortiz.api;
  * @param <A>
  * @param <B>
  * @param <C>
- * @param <D>
  */
-public class ApiCuadruple<A extends Object, B extends Object, C extends Object, D extends Object> {
+public class ApiTriple<A extends Object, B extends Object, C extends Object> {
 
     private A objectoA;
     private B objectoB;
     private C objectoC;
-    private D objectoD;
 
-    public ApiCuadruple(A objectoA, B objectoB, C objectoC, D objectoD) {
+    public ApiTriple(A objectoA, B objectoB, C objectoC) {
         this.objectoA = objectoA;
         this.objectoB = objectoB;
         this.objectoC = objectoC;
-        this.objectoD = objectoD;
     }
 
     public A getObjectoA() {
@@ -49,14 +46,6 @@ public class ApiCuadruple<A extends Object, B extends Object, C extends Object, 
 
     public void setObjectoC(C objectoC) {
         this.objectoC = objectoC;
-    }
-
-    public D getObjectoD() {
-        return objectoD;
-    }
-
-    public void setObjectoD(D objectoD) {
-        this.objectoD = objectoD;
     }
 
 }
